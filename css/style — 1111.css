@@ -37,8 +37,9 @@ body {
 }
 
 .input-search {
+    width: 300px;	   
     background-image: url(../img/search.svg);
-    width: 300px;
+    
     margin-left: auto;
 }
 
@@ -78,7 +79,7 @@ body {
 
 .promo {
     box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
-    background: #fff1b8 url(../img/pizza-img.png) no-repeat top -100px right -247px / 924px;
+    background: #fff1b8 url(../img/promo-image.jpeg) no-repeat top -100px right -247px / 924px;
     border-radius: 10px;
     padding: 68px 70px;
     margin-bottom: 56px;
@@ -139,8 +140,8 @@ body {
 }
 
 .card-image {
-    width: 380px;
-    height: 200px;
+    width: 384px;
+    height: 250px;
     object-fit: cover;
 }
 
@@ -403,13 +404,10 @@ body {
     .container {
         max-width: 960px;
     }
-    .card-image {
-        width: 300px;
-    }
 
     .promo {
         background-position: center right -300px;
-        background-size: 720px;
+        background-size: 750px;
     }
 
     .rating {
@@ -437,7 +435,6 @@ body {
         font-size: 18px;
         max-width: 400px;
     }
-    
 
     .card {
         flex-basis: 49%;
@@ -456,12 +453,8 @@ body {
     .card-info {
         flex-wrap: wrap;
     }
-  
-    .card-image {
-        width: 100%;
-    }
 
-    .card.rating {
+    .card .rating {
         flex-basis: 100%;
     }
 
@@ -471,7 +464,7 @@ body {
 
     .promo {
         background-size: 400px;
-        background-position: bottom -15px right -240px;
+        background-position: bottom 50px right -200px;
     }
 
     .promo-title {
@@ -561,7 +554,7 @@ body {
     .promo {
         padding: 20px;
     }
-    
+
     .section-heading {
         flex-wrap: wrap;
     }
