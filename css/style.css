@@ -223,7 +223,11 @@ body {
     color: #8c8c8c;
     font-size: 18px;
     line-height: 21px;
-}
+
+    /* text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; */
+} 
 
 .category {
     text-overflow: ellipsis;
