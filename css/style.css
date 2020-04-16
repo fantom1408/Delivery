@@ -223,7 +223,11 @@ body {
     color: #8c8c8c;
     font-size: 18px;
     line-height: 21px;
-}
+
+    /* text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; */
+} 
 
 .category {
     text-overflow: ellipsis;
@@ -543,6 +547,16 @@ body {
     .social-links {
         order: 2;
     }
+
+    .food-name,
+        .food-price{
+        font-size: 15px;
+    }
+
+    .modal-title{
+font-size: 20px;
+    }
+    
 }
 
 @media (max-width: 480px) {
