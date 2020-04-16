@@ -543,21 +543,11 @@ body {
     .social-links {
         order: 2;
     }
-<<<<<<< HEAD
 
 
 
-    .food-name,
-        .food-price{
-        font-size: 15px;
-    }
-
-    .modal-title{
-font-size: 20px;
-    }
+   
     
-=======
->>>>>>> parent of e847560... страницы добавлены
 }
 
 @media (max-width: 480px) {
@@ -602,13 +592,3 @@ font-size: 20px;
     }
 }
 
-@media (max-width: 370px){
-   .container{
-min-width: 460px;
-    display: flex;
-
-    .modal-body{
-min-width: 460px;
-    }
-  }
-}
