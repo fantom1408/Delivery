@@ -548,6 +548,8 @@ body {
         order: 2;
     }
 
+
+
     .food-name,
         .food-price{
         font-size: 15px;
@@ -599,4 +601,15 @@ font-size: 20px;
     .footer-link:not(:last-child) {
         margin-right: 0;
     }
+}
+
+@media (max-width: 370px){
+   .container{
+min-width: 460px;
+    display: flex;
+
+    .modal-body{
+min-width: 460px;
+    }
+  }
 }
